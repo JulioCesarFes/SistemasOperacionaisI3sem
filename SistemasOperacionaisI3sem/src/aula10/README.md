@@ -30,13 +30,21 @@ Malware é todo programa cuja intenção é realizar Ataques. Existe uma grande 
 3. Quais são e no que consiste os quatro diferentes tipos de ataque?
 
 Existem 4 tipos de ataques, sendo eles:
+
 ..* Interrupção
+
 Ataque a disponibilidade do sistema
+
 ..* Interceptação
+
 Ataque à confidencialidade do sistema
+
 ..* Fabricação
+
 Ataque à autenticidade do sistema
+
 ..* Modificação
+
 
 ---
 
@@ -52,11 +60,13 @@ Trojan ou “cavalo de Tróia” é um programa com duas funcionalidades: uma fu
 
 Exploit é um programa escrito para explorar vulnerabilidades conhecidas de algum SO.
 Essa exploração pode ser realizada como:
+
 ..* Prova de conceito (atividade licita) ou
+
 ..* Parte de um ataque (atividade ilícita).
+
 Os exploits podem estar incorporados a outros malwares (como worm e trojans) ou fazerem parte de alguma ferramenta autônoma, usadas em ataques manuais.
-Rootkit
-Um conjunto de programas destinado a ocultar a presença de um intruso no SO.
+Rootkit é um conjunto de programas destinado a ocultar a presença de um intruso no SO.
 Como princípio de funcionamento, ele modifica os mecanismos do SO que mostram os processos em execução, arquivos nos discos, portas e conexões de rede, etc., para ocultar o intruso.
 Versões mais elaboradas de rootkits substituem bibliotecas do SO ou modificam partes do próprio núcleo, o que torna complexa sua detecção e remoção.
 Backdoor ou “porta dos fundos” é um programa que facilita a entrada posterior do atacante em um sistema já invadido.
