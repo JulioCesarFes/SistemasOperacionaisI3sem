@@ -6,7 +6,8 @@ Se possível colocarei o .pdf aqui também.
 
 ---
 
-1. Quais são as cinco propriedades fundamentais de segurança de um sistema operacional? Descreva a função de cada uma delas
+1. Quais são as cinco propriedades fundamentais de segurança de um sistema operacional? Descreva a função de cada uma delas.
+
 Existem cinco propriedades fundamentais de segurança de um sistema operacional e são elas: confidencialidade, integridade, disponibilidade, autenticidade e irretratabilidade.
 Confidencialidade é respeitar as autorizações de acesso de cada usuário.
 Integridade é respeitar as autorizações de modificação de cada usuário, não alterando sua originalidade.
@@ -17,6 +18,7 @@ Autenticidade: todas as entidades do sistema são autênticas ou genuínas, ou s
 ---
 
 2. Descreva ameaça, vulnerabilidade, ataque e malware.
+
 A ameaça seria qualquer ação que coloca em risco as Propriedades de Segurança.
 Sendo assim, as ameaças podem ou não se concretizar, dependendo da serie de Princípios de Segurança levados em consideração durante a construção do SO.
 Uma vulnerabilidade é um defeito ou problema (intencional ou não) presente no código de um aplicativo ou do próprio SO, que possa ser explorado para violar as Propriedades de Segurança.
@@ -26,6 +28,7 @@ Malware é todo programa cuja intenção é realizar Ataques. Existe uma grande 
 ---
 
 3. Quais são e no que consiste os quatro diferentes tipos de ataque?
+
 Existem 4 tipos de ataques, sendo eles:
 ..* Interrupção
 Ataque a disponibilidade do sistema
@@ -37,7 +40,8 @@ Ataque à autenticidade do sistema
 
 ---
 
-4. Qual a diferença entre vírus, worm e trojan?
+4. Qual a diferença entre vírus, worm e trojan?]
+
 Vírus é um trecho de código que se infiltra em programas executáveis existentes no SO, usando-os como suporte para sua execução e replicação. Quando um programa “infectado” é executado, o vírus também se executa, infectando outros executáveis e eventualmente executando outras ações danosas.
 Worm ao contrário de um vírus, um “verme” é um programa autônomo, que se propaga sem infectar outros programas. Uma vez instalado em um sistema, o verme pode instalar Spywares ou outros programas nocivos.
 Trojan ou “cavalo de Tróia” é um programa com duas funcionalidades: uma funcionalidade lícita conhecida de seu usuário e outra ilícita, executada sem que o usuário a perceba. Muitos cavalos de Tróia são usados como vetores para a instalação de outros malwares.
@@ -45,6 +49,7 @@ Trojan ou “cavalo de Tróia” é um programa com duas funcionalidades: uma fu
 ---
 
 5. Qual a diferença entre exploit, rootkit e backdoor?
+
 Exploit é um programa escrito para explorar vulnerabilidades conhecidas de algum SO.
 Essa exploração pode ser realizada como:
 ..* Prova de conceito (atividade licita) ou
